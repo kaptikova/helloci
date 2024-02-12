@@ -68,9 +68,11 @@
             <artifactId>junit</artifactId>
             <version>4.13.2</version>
         </dependency>
-	 <exclusion>
+	 <exclusions>
+     	   <exclusion>
             <artifactId>tools</artifactId>
             <groupId>com.sun</groupId>
-        </exclusion>
+       	 </exclusion>
+    	</exclusions> 
     </dependencies>
 </project>
